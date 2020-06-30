@@ -2350,6 +2350,6 @@ section {
   color: #fff;
 }
 
-#footer .credits a {
+#footer .credits a, .text-light-blue {
   color: #a2cce3;
 }
