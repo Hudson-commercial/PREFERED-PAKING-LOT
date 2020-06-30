@@ -183,5 +183,16 @@
   $(window).on('load', function() {
     aos_init();
   });
+  
+
 
 })(jQuery);
+
+  jQuery(window).load(function() {
+ 
+    /*
+        Stop carousel
+    */
+    $('.carousel').carousel('pause');
+ 
+});
