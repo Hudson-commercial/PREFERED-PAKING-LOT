@@ -29,7 +29,11 @@
   <link href="assets/css/style.css" rel="stylesheet">
   
 <style>
-
+.boxsizingBorder {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 </style>
   
 
@@ -140,9 +144,9 @@
                   <input type="phone" class="form-control" name="phone" id="phone" placeholder="Phone number" data-rule="minlen:4" data-msg="Please enter a valid phone number" />
                   <div class="validate"></div>
                 </div>
-               <div class="row">
+               <div class="form-row">
              
-                  <textarea class="form-control message  col-md-12" name="message" rows="5" width="100%" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="boxsizingBorder " name="message" rows="5" width="100%" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validate"></div>
          
                </div>
