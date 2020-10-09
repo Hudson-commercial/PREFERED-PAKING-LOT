@@ -216,9 +216,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .logo {
-      display: none;
-  }
+    .logo, .main-logo h1 {
+       font-size: .1em !important;
+       line-height: .5;
+       font-weight: lighter;
+       letter-spacing: 1px;
+       margin-top: 5em;
+    }
+  
 }
 
 @media screen and (max-width: 767px) {
